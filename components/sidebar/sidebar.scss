@@ -1,0 +1,51 @@
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 320px;
+  background: #fff;
+
+  &__menu {
+    position: relative;
+
+    &__item {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      padding: 1rem 3rem;
+      font-size: 1.25rem;
+      font-weight: 500;
+      color: #555555;
+      transition: color .3s ease-in-out;
+
+      &:hover {
+        color: #57aaff;
+      }
+
+      &.active {
+        color: #fff;
+      }
+
+      &__icon {
+        margin-right: 1rem;
+
+        i {
+          font-size: 1.75rem;
+        }
+      }
+    }
+
+    &__indicator {
+      position: absolute;
+      top: 0;
+      left: 50%;
+      width: calc(100% - 40px);
+      border-radius: 10px;
+      z-index: -1;
+      transform: translateX(-50%);
+      transition: all .3s ease-in-out;
+      background: #57aaff;
+    }
+  }
+}
