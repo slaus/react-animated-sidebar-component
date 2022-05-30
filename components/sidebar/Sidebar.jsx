@@ -45,7 +45,7 @@ const Sidebar = () => {
                         <Link to={item.to} key={index}>
                             <div className={`sidebar__menu__item ${activeIndex === index ? 'active' : ''}`}>
                                 <div className="sidebar__menu__item__icon">
-                                    {item.icon}
+                                    <i className={item.icon}></i>
                                 </div>
                                 <div className="sidebat__menu__item__text">
                                     {item.display}
