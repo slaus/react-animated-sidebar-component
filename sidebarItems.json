@@ -1,0 +1,32 @@
+[
+    {
+        "display": "Dashboard",
+        "icon": "bx bx-home",
+        "to": "/",
+        "section": ""
+    },
+    {
+        "display": "Started",
+        "icon": "bx bx-star",
+        "to": "/started",
+        "section": "started"
+    },
+    {
+        "display": "Calendar",
+        "icon": "bx bx-calendar",
+        "to": "/calendar",
+        "section": "calendar"
+    },
+    {
+        "display": "User",
+        "icon": "bx bx-user",
+        "to": "/user",
+        "section": "user"
+    },
+    {
+        "display": "Order",
+        "icon": "bx bx-receipt",
+        "to": "/order",
+        "section": "order"
+    }
+]
